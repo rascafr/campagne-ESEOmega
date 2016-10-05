@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal" >
+    
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+    	android:layout_marginBottom="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp" >
+        
+
+        <View
+            android:id="@+id/circleView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle_challenge_done" />
+        
+        <LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical" >
+        
+	        <TextView
+	            android:id="@+id/points"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="6dp"
+	            android:gravity="center"
+	            android:visibility="invisible"
+	            android:text="2+"
+	            android:textColor="@color/list_item_title"
+	            android:textSize="20sp"
+	            android:textStyle="bold" />
+
+	        <TextView
+	            android:id="@+id/textPoints"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal|bottom"
+	            android:layout_marginTop="-5dp"
+	            android:text="pts"
+	            android:visibility="invisible"
+	            android:textColor="@color/list_item_title"
+	            android:textSize="12sp" />
+	        
+        </LinearLayout>
+        
+        <ImageView
+            android:id="@+id/imgDone"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_done" />
+        
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:gravity="center_vertical"
+	    android:layout_gravity="center_vertical">
+    
+	    <TextView
+	        android:id="@+id/challengeName"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginTop="5dp"
+	        android:text="Avoir un autographe d'une fille"
+	        android:textColor="@color/list_background"
+	        android:textSize="16sp"
+	        android:textStyle="bold" />
+	    
+	    
+		    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginLeft="8dp"
+	        android:layout_marginRight="8dp"
+	        android:layout_marginBottom="8dp">
+
+		        <ImageView
+		            android:layout_width="18dp"
+		            android:layout_height="18dp"
+		            android:src="@drawable/ic_attachement" />
+
+		        <TextView
+		            android:id="@+id/challengeRules"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="8dp"
+		            android:layout_marginRight="8dp"
+		            android:text="Vidéo nécessaire"
+		            android:textColor="@color/medium"
+		            android:textSize="14dp" />
+	        
+	    </LinearLayout>
+	    
+    </LinearLayout>
+
+</LinearLayout>

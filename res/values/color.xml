@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textbody">#252a31</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303740</color>
+    <color name="list_background_pressed">#0a85b0</color>
+    <color name="list_divider">#29323e</color>
+    <color name="counter_text_bg">#CBC107</color>
+    <color name="counter_text_color">#303740</color>
+    
+    <color name="head_title_color">#2B2B48</color>
+    
+    <color name="color_error">#DD5050</color>
+    <color name="color_error_button">#E18A8A</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="blue_denim">#42628C</color> <!-- Cf Jéjé -->
+    <color name="red_denim">#F14329</color> 
+    <color name="violet_denim">#993399</color> 
+    <color name="cyan_denim">#3399FF</color>
+    <color name="green_denim">#00CE48</color> 
+    <color name="pink_denim">#FF4D94</color> 
+    <color name="orange_denim">#FEA41D</color>  
+    
+    <!-- Buttons -->
+    <color name="flat_disabled">#cccccc</color>
+    <color name="flat_blue">#33B5E5</color>
+    <color name="flat_blue_down">#0099CC</color>
+    <color name="flat_white">#fff</color>
+    
+    <!-- Date listview for animations -->
+    <color name="clear">#B0B0B0</color>
+    <color name="medium">#808080</color>
+    <color name="dkgray">#555555</color>
+    
+    <!-- For flat button design -->
+    <color name="fbutton_default_color">#3eadeb</color>
+    <color name="fbutton_default_shadow_color">#ff3493c8</color>
+    <color name="fbutton_color_turquoise">#1abc9c</color>
+    <color name="fbutton_color_green_sea">#16a085</color>
+    <color name="fbutton_color_emerald">#2ecc71</color>
+    <color name="fbutton_color_nephritis">#27ae60</color>
+    <color name="fbutton_color_peter_river">#3498db</color>
+    <color name="fbutton_color_belize_hole">#2980b9</color>
+    <color name="fbutton_color_amethyst">#9b59b6</color>
+    <color name="fbutton_color_wisteria">#8e44ad</color>
+    <color name="fbutton_color_wet_asphalt">#34495e</color>
+    <color name="fbutton_color_midnight_blue">#2c3e50</color>
+    <color name="fbutton_color_sun_flower">#f1c40f</color>
+    <color name="fbutton_color_orange">#f39c12</color>
+    <color name="fbutton_color_carrot">#e67e22</color>
+    <color name="fbutton_color_pumpkin">#d35400</color>
+    <color name="fbutton_color_alizarin">#e74c3c</color>
+    <color name="fbutton_color_pomegranate">#c0392b</color>
+    <color name="fbutton_color_clouds">#ecf0f1</color>
+    <color name="fbutton_color_silver">#bdc3c7</color>
+    <color name="fbutton_color_concrete">#95a5a6</color>
+    <color name="fbutton_color_asbestos">#7f8c8d</color>
+    <color name="fbutton_color_transparent">@android:color/transparent</color>
+
+</resources>

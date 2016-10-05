@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ESEOmega</string>
+    
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    
+    <string name="action_example">Synchro !</string>
+    <string name="action_version">Bêta 0.3.3</string>
+    <string name="action_settings">Réglages</string>
+    <string name="action_fetch">Synchroniser</string>
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <string name="text_example_01">Sillonnez les terres, explorez les mers, partez à la recherche des QRcodes ESEOmega !\nUne ancienne légende raconte qu\'ils sont éparpillés à l\'ESEO et dans tout Angers…\nTel Ulysse, partez à l\'aventure !</string>
+    <string name="text_example_02">- Créez votre équipe de 4 membres maximum\n- Flashez les QRcodes avec cette app dès que vous en trouvez un\n- Un QRcode rapporte 2, 4 ou 6 points à l\'équipe pour l\'anim de 3 jours « Les 12 Travaux de Gaméon » (plus d\'infos dans l\'onglet Animations)\n- 2 points sont rajoutés si tous les QRcodes moyens sont trouvés, 4 pour tous les difficiles</string>
+    
+     <string name="text_welcome">C\'est notre application, on en est fier. Vous pouvez faire plein de choses avec, on espère vraiment que vous allez voter pour nous (s\'il vous plait !)\n\n
+         						 Blah blah blah\n\nUn peu de texte par ici pour les convaincre \n\n
+         						 Entres autres, ce que l\'on peut dire sur nous :\n\n
+        						   - On est motivés plus que jamais, on sait gérer notre budget, nous saurons vous convaincre que c\'est pour nous que vous devrez voter début Avril\n\n
+        						   - On sait faire la danse du crabe, les pâtes au saumon, les endives, la ratatouille, et plein d\'autres plats qui n\'ont rien à voir avec une bonne purée</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >ESEOmega</item>
+        <item >Equipe</item>
+        <item >Programme</item>
+        <item >Sponsors</item>
+        <item >Animations</item>
+        <item >Défis</item>
+        <item >Chasse QRcodes</item>
+        <item >Vidéo - Social</item>
+        <item >A propos</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_omega</item>
+        <item>@drawable/ic_team</item>
+        <item>@drawable/ic_program</item>
+        <item>@drawable/ic_sponsors</item>
+        <item>@drawable/ic_dice</item>
+        <item>@drawable/ic_run</item>
+        <item>@drawable/ic_treasure</item>
+        <item>@drawable/ic_media</item>
+        <item>@drawable/ic_about</item>
+    </array>
+    
+    <!-- Sponsors names -->
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

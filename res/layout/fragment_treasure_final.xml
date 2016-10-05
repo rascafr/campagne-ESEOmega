@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/list_background" >
+
+    <TextView
+        android:id="@+id/treasureMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Le jeu est terminé !\nMerci de votre participation.\nVotre résumé :"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="-20dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/treasureMemberFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-50dp"
+            android:gravity="center_horizontal"
+            android:text="Jean Edouard"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/treasureTeamName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Les Méchants Voleurs"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="italic"
+                android:gravity="center_horizontal"  />
+            
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center">
+                
+                <ImageView
+	                android:id="@+id/star1"
+	                android:layout_width="25dp"
+	                android:layout_height="25dp"
+	                android:src="@drawable/ic_grade_white" />
+                
+                <ImageView
+	                android:id="@+id/star2"
+	                android:layout_width="25dp"
+	                android:layout_height="25dp"
+	                android:src="@drawable/ic_grade_white" />
+                
+                <ImageView
+	                android:id="@+id/star3"
+	                android:layout_width="25dp"
+	                android:layout_height="25dp"
+	                android:src="@drawable/ic_grade_grey" />
+                
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/treasureTeamPoints"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="25 pts"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:gravity="center" />
+            
+        </LinearLayout>
+
+</LinearLayout>
